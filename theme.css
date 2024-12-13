@@ -14,14 +14,7 @@
     --checked-color: #6A5A97;
     --queue-color: #131111;
 
-
-
-
- --bold-color: #f44f51;
-        --H-red : #f44f51;
-    --red-text-color: black;
-    
-    
+    --html-color: #e5d6c9;
     
     --H-orange : #e5994b;
     --orange-text-color: black;
@@ -120,6 +113,8 @@
     --green-text-color: var(--text-color);
     
     --2ndary-color: #103444;
+
+    --html-color: #e5d6c9;
     
     --Queue-background: #051a1f;
     
@@ -425,7 +420,12 @@ background-color: var(--main-color);
 }
 ----------
 
+/*html*/
 
+        
+rn-html-viewer.rn-clr-background-primary{
+ background: var(--html-color);
+}
 
 .flex.px-3.py-2\.5.flex-row.items-center:hover {
 background: var(--Tertiary-color);
